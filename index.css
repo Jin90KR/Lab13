@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+p{
+    text-align: center;
+}
+
+.mainbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 100px;
+}
+
+.additionaltask{
+    text-align: center;
+    padding: 50px;
+}
+
+.name,
+.age,
+.skills{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
